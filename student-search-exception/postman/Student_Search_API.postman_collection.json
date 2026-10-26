@@ -1,0 +1,7 @@
+{
+  "info": {"name": "Student Search API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},
+  "item": [
+    {"name": "GET - Student exists (200)", "request": {"method": "GET", "url": "http://localhost:8080/api/v1/students/1"}},
+    {"name": "GET - Student missing (404)", "request": {"method": "GET", "url": "http://localhost:8080/api/v1/students/999"}}
+  ]
+}
